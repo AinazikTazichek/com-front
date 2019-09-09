@@ -17,6 +17,7 @@
 - 5.Abdrakhman Niyazahunov
 - 6.Abdraim Kenenbaev
 - 7.Baisalbek Daniiarov
+- 8.Islam Murtazaev
 
 # Installation
 
