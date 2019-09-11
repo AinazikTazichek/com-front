@@ -1,16 +1,16 @@
 @import "https://fonts.googleapis.com/css?family=Open+Sans:800|Poppins:300,400,500,600,700,800|Roboto:300,400,500|Martel:700,800";
 .btn_1,
 .banner_part .banner_text .btn_1 {
-  background-image: -webkit-linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
-  background-image: -o-linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
-  background-image: linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
+  background-image: -webkit-linear-gradient(131deg, #6fc9ef, #14a054, #14a054, #14a054);
+  background-image:  -o-linear-gradient(131deg, #6fc9ef, #14a054, #14a054, #14a054);
+  background-image: linear-gradient(131deg, #6fc9ef, #14a054, #14a054, #14a054);
 }
 .btn_2,
 .btn_4,
 .slick-dots .slick-active button {
-  background-image: -webkit-linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
-  background-image: -o-linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
-  background-image: linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
+  background-image: -webkit-linear-gradient(131deg, #6fc9ef, #14a054, #14a054, #14a054);
+  background-image:  -o-linear-gradient(131deg, #6fc9ef, #14a054, #14a054, #14a054);
+  background-image: linear-gradient(131deg, #6fc9ef, #14a054, #14a054, #14a054);
 }
 body {
   font-family: roboto, sans-serif;
@@ -1956,10 +1956,10 @@ ul {
   height: 880px;
   position: relative;
   overflow: hidden;
-  background-image: url(../img/banner_bg.png);
+  background-image: url(../images/banner_bg.png);
   background-repeat: no-repeat;
   background-size: 41%;
-  background-position: top right;
+  background-position: center right;
 }
 @media (max-width: 576px) {
   .banner_part {
