@@ -164,7 +164,7 @@ h5 {
   font-size: 16px;
   line-height: 22px;
 }
-img{
+img {
   max-width: 100%;
 }
 a:focus,
@@ -2315,6 +2315,7 @@ ul {
 .service_part .single_service_part {
   padding: 60px 50px;
   background-color: #fff;
+  min-height: 400px;
 }
 @media (max-width: 576px) {
   .service_part .single_service_part {
@@ -2374,6 +2375,8 @@ ul {
   background-color: #e3f1da;
 }
 .service_part .single_service_part span i {
+  color: #fff;
+  font-size: 28px;
   display: inline-block;
   width: 60px;
   height: 60px;
@@ -2392,6 +2395,12 @@ ul {
   background-image: -moz-linear-gradient(131deg, #ff7e5f 0%, #feb47b 99%);
   background-image: -webkit-linear-gradient(131deg, #ff7e5f 0%, #feb47b 99%);
   background-image: -ms-linear-gradient(131deg, #ff7e5f 0%, #feb47b 99%);
+  box-shadow: 0 12px 20px 0 rgba(255, 126, 95, 0.2);
+}
+.service_part .single_service_part .style_icon2 i {
+  background-image: -moz-linear-gradient(131deg, #00b09b 0%, #0032b0 99%);
+  background-image: -webkit-linear-gradient(131deg, #00b09b 0%, #0032b0 99%);
+  background-image: -ms-linear-gradient(131deg, #00b09b 0%, #0032b0 99%);
   box-shadow: 0 12px 20px 0 rgba(255, 126, 95, 0.2);
 }
 .service_part .single_service_part h4 {
