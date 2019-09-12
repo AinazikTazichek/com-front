@@ -2,14 +2,14 @@
 .btn_1,
 .banner_part .banner_text .btn_1 {
   background-image: -webkit-linear-gradient(131deg, #6fc9ef, #14a054, #14a054, #14a054);
-  background-image:  -o-linear-gradient(131deg, #6fc9ef, #14a054, #14a054, #14a054);
+  background-image: -o-linear-gradient(131deg, #6fc9ef, #14a054, #14a054, #14a054);
   background-image: linear-gradient(131deg, #6fc9ef, #14a054, #14a054, #14a054);
 }
 .btn_2,
 .btn_4,
 .slick-dots .slick-active button {
   background-image: -webkit-linear-gradient(131deg, #6fc9ef, #14a054, #14a054, #14a054);
-  background-image:  -o-linear-gradient(131deg, #6fc9ef, #14a054, #14a054, #14a054);
+  background-image: -o-linear-gradient(131deg, #6fc9ef, #14a054, #14a054, #14a054);
   background-image: linear-gradient(131deg, #6fc9ef, #14a054, #14a054, #14a054);
 }
 body {
@@ -3088,11 +3088,11 @@ ul {
   }
 }
 .copyright_part {
-  background-color: #303030;
-  padding: 26px 0;
+  background-color: #e6e6e6;
+  padding: 14px 0;
 }
 .copyright_part p {
-  color: #8a8a8a;
+  color: #3b3b3b;
   font-family: 300;
 }
 .copyright_part a {
