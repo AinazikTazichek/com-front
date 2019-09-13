@@ -1,0 +1,23 @@
+/* Done */
+#wrapper {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+
+}
+#wrapper #articles{
+    float: left;
+    width: 70%;
+    margin-left:29%;
+}
+#wrapper #articles .AbdrLinks{
+    float:left;
+    width: 40%;
+    box-sizing: border-box;
+    background-color: white;
+    margin-left: 2%;
+    min-height: 200px;
+
+
+  }
+
