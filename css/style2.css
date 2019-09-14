@@ -659,7 +659,6 @@ ul {
 .btn_2 {
   display: inline-block;
   padding: 13px 47px;
-  box-shadow: 0 12px 20px 0 rgba(255, 126, 95, 0.15);
   font-size: 14px;
   color: #fff;
   text-transform: capitalize;
@@ -677,7 +676,6 @@ ul {
   color: #fff !important;
   background-size: 100% 100%;
 }
-
 
 @media (max-width: 576px) {
   .btn_2 {
@@ -700,7 +698,6 @@ ul {
 .btn_4 {
   display: inline-block;
   padding: 13px 47px;
-  box-shadow: 0 12px 20px 0 rgba(255, 126, 95, 0.15);
   font-size: 14px;
   color: #fff;
   text-transform: capitalize;
@@ -2091,7 +2088,6 @@ ul {
   color: #646464;
 }
 .banner_part .banner_text .btn_1 {
-  box-shadow: 0 12px 20px 0 rgba(255, 126, 95, 0.15);
   margin-top: 45px;
 }
 .banner_part .video_popup {
@@ -2180,7 +2176,7 @@ ul {
 }
 .about_part .about_text h4 {
   margin-bottom: 32px;
-  color: #ff7e5f;
+  color: #2626f0;
   font-size: 22px;
   font-style: italic;
   font-family: poppins, sans-serif;
@@ -2413,7 +2409,7 @@ ul {
   background-image: -moz-linear-gradient(131deg, #00b09b 0%, #0032b0 99%);
   background-image: -webkit-linear-gradient(131deg, #00b09b 0%, #0032b0 99%);
   background-image: -ms-linear-gradient(131deg, #00b09b 0%, #0032b0 99%);
-  box-shadow: 0 12px 20px 0 rgba(255, 126, 95, 0.2);
+  box-shadow: 0 12px 20px 0 rgba(0, 50, 176, 0.2);
 }
 .service_part .single_service_part h4 {
   font-weight: 600;
@@ -2564,6 +2560,19 @@ ul {
 .portfolio_part .card-columns .card .card-img-top {
   border-top-left-radius: calc(0px);
   border-top-right-radius: calc(0px);
+  border-radius: 5px;
+}
+.portfolio_part .card-columns .card:nth-last-child(1) .card-img-top {
+  border: 1px solid #2e3192;
+}
+.portfolio_part .card-columns .card:nth-last-child(2) .card-img-top {
+  border: 1px solid #662d8c;
+}
+.portfolio_part .card-columns .card:nth-last-child(3) .card-img-top {
+  border: 1px solid #009245;
+}
+.portfolio_part .card-columns .card:nth-last-child(4) .card-img-top {
+  border: 1px solid #d4145a;
 }
 .portfolio_part .card-columns .card:hover .card-body {
   opacity: 1;
@@ -2851,7 +2860,36 @@ ul {
   }
 }
 .blog_part .single-home-blog .card-img-top {
-  border-radius: 0;
+  border-radius: 5px;
+  width: 260px;
+  height: 240px;
+  text-align: center;
+  font-size: 120px;
+}
+.color-1 {
+  background-image: -webkit-linear-gradient(131deg, #1bffff, #2e3192);
+  background-image: -o-linear-gradient(131deg, #1bffff, #2e3192);
+  background-image: linear-gradient(131deg, #1bffff, #2e3192);
+}
+.color-2 {
+  background-image: -webkit-linear-gradient(131deg, #ed1e79, #662d8c);
+  background-image: -o-linear-gradient(131deg, #ed1e79, #662d8c);
+  background-image: linear-gradient(131deg, #ed1e79, #662d8c);
+}
+.color-3 {
+  background-image: -webkit-linear-gradient(131deg, #fcee21, #009245);
+  background-image: -o-linear-gradient(131deg, #fcee21, #009245);
+  background-image: linear-gradient(131deg, #fcee21, #009245);
+}
+.color-4 {
+  background-image: -webkit-linear-gradient(131deg, #fbb03b, #d4145a);
+  background-image: -o-linear-gradient(131deg, #fbb03b, #d4145a);
+  background-image: linear-gradient(131deg, #fbb03b, #d4145a);
+}
+.blog_part .single-home-blog .card-img-top i {
+  color: white;
+  vertical-align: middle;
+  background: transparent !important;
 }
 .blog_part .single-home-blog .card {
   border: 0 solid transparent;
@@ -3425,36 +3463,36 @@ ul {
   font-weight: 300;
 }
 .breadcrumb_bg {
-  background-image: url(../images/faculty/faculty\ image.jpeg);
+  background-image: url(../images/faculty/faculty\image.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.breadcrumb_bg2{
+.breadcrumb_bg2 {
   background-image: url(../images/photo_2019-09-14_19-50-19.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.breadcrumb_bg3{
+.breadcrumb_bg3 {
   background-image: url(../images/masters-overview.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.breadcrumb_bg4{
+.breadcrumb_bg4 {
   background-image: url(../images/masters-program.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.breadcrumb_bg5{
+.breadcrumb_bg5 {
   background-image: url(../images/masters-research.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.breadcrumb_bg6{
+.breadcrumb_bg6 {
   background-image: url(../images/masters-admission.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -4620,6 +4658,6 @@ h6 {
 .switch-wrap {
   margin-bottom: 10px;
 }
-.abc{
+.abc {
   height: 100%;
 }
