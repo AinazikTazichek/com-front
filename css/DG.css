@@ -1,0 +1,14 @@
+#wrap-content {
+    padding-top: 20px;
+    min-height: 600px;
+    padding-bottom: 60px;
+    text-shadow: 1px 1px 1px #fff;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#wrap-content #Wraptext {
+    width: 90%;
+    margin-left: 5%;
+    font-weight: normal;
+    font-size: 1em;
+    font-family: "Courier New", Courier, monospace;
