@@ -2,22 +2,52 @@
 #wrapper {
     float: left;
     width: 100%;
-    margin-top: 20px;
-
+    margin-top: 15px;
+    background-color: white;
 }
 #wrapper #articles{
     float: left;
     width: 70%;
-    margin-left:29%;
+    margin-left:16%;
 }
 #wrapper #articles .AbdrLinks{
     float:left;
     width: 40%;
     box-sizing: border-box;
     background-color: white;
-    margin-left: 2%;
-    min-height: 200px;
+    margin-left: 5%;
+    min-height: 180px;
 
 
   }
 
+  #descriptions1 {
+    float: left;
+    width: 100%;
+    margin-top: 0px;
+    background-color: white;
+
+}
+ #descriptions1 #sArcticles{
+    float: left;
+    width: 100%;
+    margin-left:0%;
+}
+#descriptions1 #sArcticles .textForCourses{
+    float:left;
+    width: 90%;
+    border:1px solid silver;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-right: 5%;
+    margin-left: 5%;
+    min-height: 100px;
+    margin-bottom: 40px;
+    background: #f1f1f1;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0,25);
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px
+  }
