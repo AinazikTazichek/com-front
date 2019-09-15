@@ -32,18 +32,3 @@ $ cd com-front/
 OR
 
 [Click to Download](https://github.com/xbaysal11/com-front/archive/master.zip)
-
-<!-- ## 2. Install packages -->
-
-<!-- ## 3. Start project -->
-
-<!-- Steps:
-
-- 1.`$ rails s`
-- 2.Go to [http://localhost:3000/](http://localhost:3000/)
-
-## 4. Install Spree Commerce (Optional)
-
-Steps:
-
-- 1.  Uncomment "Spree" section in Gemfile -->
