@@ -12,13 +12,12 @@
 
 - 1.PM: Nasip Salmakhunov
 - 2.Aidarbek Zamirbekov
-- 3.Azatbek Kanybekov
-- 4.Timur Zhusuev
-- 5.Abdrakhman Niyazahunov
-- 6.Abdraim Kenenbaev
-- 7.Baisalbek Daniiarov
-- 8.Islam Murtazaev
-- 9.Ildar Saifulin
+- 3.Timur Zhusuev
+- 4.Abdrakhman Niyazahunov
+- 5.Abdraim Kenenbaev
+- 6.Baisalbek Daniiarov
+- 7.Islam Murtazaev
+- 8.Ildar Saifulin
 
 # Installation
 
