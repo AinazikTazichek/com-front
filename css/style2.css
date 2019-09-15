@@ -3498,6 +3498,18 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.breadcrumb_bg7 {
+  background-image: url(../images/banner_bg_7.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.breadcrumb_bg8 {
+  background-image: url(../images/banner_bg_8.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .breadcrumb {
   position: relative;
   z-index: 1;
