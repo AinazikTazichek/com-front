@@ -1,53 +1,109 @@
 /* Done */
 #wrapper {
-    float: left;
-    width: 100%;
-    margin-top: 15px;
-    background-color: white;
+  width: 100%;
+  margin-top: 15px;
+  background-color: white;
 }
-#wrapper #articles{
-    float: left;
-    width: 70%;
-    margin-left:16%;
+#wrapper #articles {
+  justify-content: space-evenly;
 }
-#wrapper #articles .AbdrLinks{
-    float:left;
-    width: 40%;
-    box-sizing: border-box;
-    background-color: white;
-    margin-left: 5%;
-    min-height: 180px;
+#wrapper #articles .AbdrLinks {
+  text-align: center;
+}
+
+#ForLinks {
+  width: 100%;
+  margin-top: 15px;
+  background-color: #f1f1f1;
+  padding: 100px 0;
+  margin: 50px 0;
+}
+#ForLinks #ForLinks2 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#ForLinks #ForLinks2 .AbdrLinks2 {
+  padding: 20px 35px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: white;
+  min-height: 300px;
+  margin-top: 40px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0, 1);
+}
+
+#descriptions1 {
+  width: 100%;
+  margin-top: 0px;
+  background-color: white;
+  width: 90%;
+  margin: 0 auto;
+}
+#descriptions1 #sArcticles {
+  float: center;
+  width: 100%;
+  margin-left: 0%;
+}
+#descriptions1 #sArcticles .textForCourses {
+  width: 100%;
+  border: 1px solid silver;
+  box-sizing: border-box;
+  border-radius: 5px;
+  /* margin-right: 5%; */
+  /* margin-left: 5%; */
+  min-height: 100px;
+  margin-bottom: 40px;
+  background: #f8f8f8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0, 25);
+  text-align: center;
+  padding: 10px;
+}
+
+.tags {
+  text-align: left;
+}
+.tags li {
+  list-style: initial;
+}
+.tags li h5 {
+  font-size: 14px;
+}
+.tags li a:hover h5 {
+  color: rgb(0, 149, 255);
+}
+.AbdrLinks2 h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.AbdrLinks h4 {
+  margin: 10px 0;
+}
 
 
-  }
-
-  #descriptions1 {
-    float: left;
-    width: 100%;
-    margin-top: 0px;
-    background-color: white;
-
+#back2Top {
+  width: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  -moz-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
+  background-color: #DDD;
+  color: #555;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
 }
- #descriptions1 #sArcticles{
-    float: left;
-    width: 100%;
-    margin-left:0%;
+#back2Top:hover {
+  background-color: #DDF;
+  color: #000;
 }
-#descriptions1 #sArcticles .textForCourses{
-    float:left;
-    width: 90%;
-    border:1px solid silver;
-    box-sizing: border-box;
-    border-radius: 5px;
-    margin-right: 5%;
-    margin-left: 5%;
-    min-height: 100px;
-    margin-bottom: 40px;
-    background: #f1f1f1;
-    box-shadow: 0px 4px 4px rgba(0,0,0,0,25);
-    text-align: center;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px
-  }

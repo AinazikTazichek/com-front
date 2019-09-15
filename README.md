@@ -12,13 +12,12 @@
 
 - 1.PM: Nasip Salmakhunov
 - 2.Aidarbek Zamirbekov
-- 3.Azatbek Kanybekov
-- 4.Timur Zhusuev
-- 5.Abdrakhman Niyazahunov
-- 6.Abdraim Kenenbaev
-- 7.Baisalbek Daniiarov
-- 8.Islam Murtazaev
-- 9.Ildar Saifulin
+- 3.Timur Zhusuev
+- 4.Abdrakhman Niyazahunov
+- 5.Abdraim Kenenbaev
+- 6.Baisalbek Daniiarov
+- 7.Islam Murtazaev
+- 8.Ildar Saifulin
 
 # Installation
 
@@ -32,18 +31,3 @@ $ cd com-front/
 OR
 
 [Click to Download](https://github.com/xbaysal11/com-front/archive/master.zip)
-
-<!-- ## 2. Install packages -->
-
-<!-- ## 3. Start project -->
-
-<!-- Steps:
-
-- 1.`$ rails s`
-- 2.Go to [http://localhost:3000/](http://localhost:3000/)
-
-## 4. Install Spree Commerce (Optional)
-
-Steps:
-
-- 1.  Uncomment "Spree" section in Gemfile -->
