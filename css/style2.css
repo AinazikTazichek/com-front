@@ -2908,11 +2908,45 @@ ul {
   box-shadow: -7.552px 9.326px 20px 0 rgba(1, 84, 85, 0.1);
   border-radius: 10px;
 }
+.faculty .card-body {
+  padding: 10px 20px;
+  min-height: 120px;
+  background-color: #fff;
+  text-align: center;
+  position: absolute;
+  bottom: -100px;
+  box-shadow: -7.552px 9.326px 20px 0 rgba(1, 84, 85, 0.1);
+  border-radius: 10px;
+}
+.faculty .card-body h4{
+  padding:0  10px  10px 10px;
+}
+.faculty .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.faculty .row {
+  margin-bottom: 150px;
+}
 @media (max-width: 576px) {
   .blog_part .single-home-blog .card .card-body {
     padding: 15px;
     left: 10px;
     bottom: -60px;
+  }
+  .faculty .card-body {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .faculty .card-body h4{
+    font-size: 16px;
+  }
+  .faculty .col-sm-2{
+    width: auto;
+    margin-bottom: 120px;
+  }
+  .faculty .row {
+    margin-bottom:0;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -2921,11 +2955,26 @@ ul {
     left: 10px;
     bottom: -60px;
   }
+  .faculty .card-body {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .faculty .card-body h4{
+    font-size: 16px;
+  }
+  .faculty .col-sm-2{
+    width: auto;
+    margin-bottom: 120px;
+  }
+  .faculty .row {
+    margin-bottom:0;
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .blog_part .single-home-blog .card .card-body {
     padding: 20px;
   }
+  
 }
 .blog_part .single-home-blog .card .card-body a {
   color: #ff7e5f;
@@ -2974,6 +3023,21 @@ ul {
   .blog_part .single-home-blog .card span {
     margin-bottom: 5px;
     margin-top: 5px;
+  }
+  .faculty .card-body {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .faculty .col-sm-2{
+    max-width: 50%;
+    margin-bottom: 120px;
+    flex: 0 0 50%;
+  }
+  .faculty .card-img-top{
+    height: auto;
+  }
+  .faculty .row {
+    margin-bottom:0;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -3463,7 +3527,7 @@ ul {
   font-weight: 300;
 }
 .breadcrumb_bg {
-  background-image: url(../images/faculty/faculty\image.jpeg);
+  background-image: url(../images/faculty/faculty_image.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
