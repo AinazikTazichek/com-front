@@ -3436,6 +3436,12 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.breadcrumb_bg3{
+  background-image: url(../images/photo_2019-09-14_22-53-41.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .breadcrumb {
   position: relative;
   z-index: 1;
