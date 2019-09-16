@@ -8,6 +8,13 @@
      We TRY and CATCH
 </p>
 
+
+# Usefull links
+[Website](https://xbaysal11.github.io/com-front/)
+[Figma Design](https://www.figma.com/file/L6LKuaaWG5xEUfr1GZrICN/Untitled?node-id=38%3A0)
+[Canban Desk](https://trello.com/b/fLFkaMVy/com-soft)
+[Telegram Bot](https://www.t.me/githubbot)
+
 # Collaborators
 
 - 1.PM: Nasip Salmakhunov
