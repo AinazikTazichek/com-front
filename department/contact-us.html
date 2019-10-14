@@ -119,8 +119,7 @@
                                             Labs
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item"
-                                                href="../template/under-construction.html"
+                                            <a class="dropdown-item" href="../template/under-construction.html"
                                                 target="_blank">Policy
                                                 &amp;
                                                 Regulations</a>
@@ -155,45 +154,102 @@
         <!--END OF THE BANNER-->
         <section class="service_part section_padding">
             <div class="container">
-                <h1 class="text-center mb-5">Contact Us</h1>
+                <!-- <h1 class="text-center mb-5">Contact Us</h1> -->
                 <div class="row cards">
-
                     <div class="col-sm-6 col-xl-12">
                         <div class="single_service_part">
-                            <p> We value all your questions and feedback. There are number of ways you can contact
-                                us.<br>
-                                Head of Computer Science department: Shaidullaev Nurlan<br /></p>
-                                <br>
-                            <p>
-                                    <i class="material-icons">location_on</i>
-                                <strong>Address:</strong> <br>
-                                Block A, Office: B-205, Ala-Too International University, Ankara Street 1/8,
-                                Tunguch, 720048, Bishkek, Kyrgyz Republic.<br><br>
-                                <i class="material-icons">call</i>
-                                <strong>Tel:</strong> +996 (312) 63-14-25<br>
-                                <i class="material-icons">markunread</i>
-                                <strong>Fax:</strong> +996 (312) 63-04-09<br>
-                            </p><br>
+                            <div class="row mb-5">
+                                <div class="col-12">
+                                    <h2 class="contact-title">Mail Us</h2>
+                                </div>
+                                <div class="mb-2 ml-3">
+                                    <p> We value all your questions and feedback. There are number of ways you can
+                                        contact
+                                        us.<br>
+                                        Head of Computer Science department: Shaidullaev Nurlan<br /></p>
+                                    <br>
+                                </div>
+                                <div class="col-lg-8">
+                                    <form class="form-contact contact_form" action="mail.php" method="POST"
+                                        id="contactForm" novalidate="novalidate">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <input class="form-control" name="subject" id="subject" type="text"
+                                                        onfocus="if (!window.__cfRLUnblockHandlers) return false; this.placeholder = ''"
+                                                        onblur="if (!window.__cfRLUnblockHandlers) return false; this.placeholder = 'Enter Subject'"
+                                                        placeholder="Enter Subject">
+                                                </div>
+                                            </div>
 
-                            <p>
-                                <i class="material-icons">map</i>
-                                <strong >Map</strong><br>
-                            </p>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <input class="form-control" name="name" id="name" type="text"
+                                                        onfocus="if (!window.__cfRLUnblockHandlers) return false; this.placeholder = ''"
+                                                        onblur="if (!window.__cfRLUnblockHandlers) return false; this.placeholder = 'Enter your name'"
+                                                        placeholder="Enter your name">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <input class="form-control" name="email" id="email" type="email"
+                                                        onfocus="if (!window.__cfRLUnblockHandlers) return false; this.placeholder = ''"
+                                                        onblur="if (!window.__cfRLUnblockHandlers) return false; this.placeholder = 'Enter email address'"
+                                                        placeholder="Enter email address">
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <textarea class="form-control w-100" name="message" id="message"
+                                                        cols="30" rows="9"
+                                                        onfocus="if (!window.__cfRLUnblockHandlers) return false; this.placeholder = ''"
+                                                        onblur="if (!window.__cfRLUnblockHandlers) return false; this.placeholder = 'Enter Message'"
+                                                        placeholder="Enter Message"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <button type="submit" class="button button-contactForm btn_4">Send
+                                                Message</button>
+                                            <button type="clear" class="button button-contactForm btn_4">Clear</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="media contact-info">
+                                        <span class="contact-info__icon"><i
+                                                class="material-icons">location_on</i></span>
+                                        <div class="media-body">
+                                            <h3>AIU, Ankara Street 1/8,
+                                                Tunguch, 720048, Bishkek, KR.</h3>
+                                            <p>Block A, Office: B-205.</p>
+                                        </div>
+                                    </div>
+                                    <div class="media contact-info">
+                                        <span class="contact-info__icon"> <i class="material-icons">call</i></span>
+                                        <div class="media-body">
+                                            <h3>+996 (312) 63-14-25</h3>
+                                            <p>Mon to Fri 9am to 6pm</p>
+                                        </div>
+                                    </div>
+                                    <div class="media contact-info">
+                                        <span class="contact-info__icon"> <i
+                                                class="material-icons">markunread</i></span>
+                                        <div class="media-body">
+                                            <h3>cs@iaau.edu.kg</h3>
+                                            <p>Send us your query anytime!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2924.804406047728!2d74.67895221489997!3d42.85586301163944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb6c95311ea6b%3A0x7023946675e4c5a9!2sInternational%20Alatoo%20University!5e0!3m2!1sen!2skg!4v1570976759592!5m2!1sen!2skg"
-                                width="100%"
-                                height="450"
-                                frameborder="0"
-                                style="border:0;"
-                                allowfullscreen=""
-                            ></iframe>
+                                width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-
         <!-- END OF CONTENT -->
 
         <!-- FOOTER -->
