@@ -491,8 +491,6 @@ table td {
 -----------------------------------------------------------------------------------------------*/
 
 button {
-  height: 28px;
-  width: 125px;
   background: url("../images/menu-bg.jpg");
   border: 1px solid #a1350d;
   border-radius: 2px;
